@@ -31,16 +31,57 @@
 }
 
 .navbar-wrap {
+  padding: 34px 0 0 0;
   display: flex;
+  align-items: center;
 }
 
 .navbar-logo {
-  width: 118px;
-  height: 42px;
-  font-family: "Roboto";
-  font-style: normal;
+  margin-right: 280px;
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
   font-weight: 500;
   font-size: 36px;
   line-height: 42px;
   color: #000000;
+}
+
+.navbar-items {
+  display: flex;
+  margin-right: 130px;
+}
+
+.navbar-list {
+  margin-right: 64px;
+  font-family: "Inter", sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 19px;
+}
+.navbar-list a {
+  color: #050038;
+}
+
+.navbar-list:last-child {
+  margin-right: 0;
+}
+
+.navbar-sign {
+  margin-right: 34px;
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 21px;
+  color: #050038;
+}
+
+.button {
+  padding: 16px 34px;
+  background: #0555FF;
+  border-radius: 30px;
+  font-family: "Inter", sans-serif;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 22px;
+  color: #ffffff;
 }/*# sourceMappingURL=style.css.map */

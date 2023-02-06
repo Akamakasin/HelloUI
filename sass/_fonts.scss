@@ -28,3 +28,28 @@
     font-weight: normal;
     font-style: normal;
   }
+
+  @mixin roboto400 {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+  }
+
+  @mixin inter400 {
+    font-family: 'Inter', sans-serif;
+    font-weight: 400;
+  }
+
+  @mixin inter500 {
+    font-family: 'Inter', sans-serif;
+    font-weight: 500;
+  }
+
+  @mixin circular500 {
+    font-family: 'Circular Std', sans-serif;
+    font-weight: 500;
+  }
+
+  @mixin circular900 {
+    font-family: 'Circular Std', sans-serif;
+    font-weight: 900;
+  }
