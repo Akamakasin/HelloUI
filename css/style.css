@@ -1,3 +1,4 @@
+@charset "UTF-8";
 @font-face {
   font-family: "Inter";
   src: local("Inter Regular"), local("Inter-Regular"), url("../fonts/Inter-Regular.woff2") format("woff2"), url("../fonts/Inter-Regular.woff") format("woff"), url("../fonts/Inter-Regular.ttf") format("truetype");
@@ -110,4 +111,84 @@
 }
 .header-wrap {
   display: flex;
+  justify-content: center;
+}
+.header-free {
+  margin-right: 20px;
+  font-size: 20px;
+  line-height: 24px;
+}
+.header-video {
+  background: #ffffff;
+  box-shadow: 0px 10px 40px rgba(176, 201, 253, 0.7);
+  font-size: 20px;
+  line-height: 24px;
+  color: #0555FF;
+}
+.header-box {
+  display: flex;
+  margin-top: 50px;
+}
+.header-img {
+  width: 100%;
+  height: 100%;
+}
+
+.bigRedSquare {
+  position: relative;
+  top: 130px;
+}
+
+.greenLine {
+  position: relative;
+  top: 250px;
+  right: -94px;
+}
+
+.yellowBigСircle {
+  position: relative;
+  top: 368px;
+  right: -50px;
+}
+
+.smallRedSquare {
+  position: relative;
+  top: 469px;
+  right: -94px;
+}
+
+.blueRectangle {
+  position: relative;
+  top: 590px;
+  right: -65px;
+}
+
+.bigRedRectangle {
+  position: relative;
+  top: 94px;
+  left: -32px;
+}
+
+.greenLineLeft {
+  position: relative;
+  top: 217px;
+  left: -18px;
+}
+
+.yellowSmallСircle {
+  position: relative;
+  top: 337px;
+  left: 188px;
+}
+
+.yellowLine {
+  position: relative;
+  top: 530px;
+  left: 25px;
+}
+
+.redTriangle {
+  position: relative;
+  top: 600px;
+  left: -50px;
 }/*# sourceMappingURL=style.css.map */
