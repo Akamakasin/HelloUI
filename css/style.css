@@ -205,8 +205,12 @@
   line-height: 19px;
   color: #5B5E6D;
 }
-.slider-list {
-  display: flex;
-  justify-content: space-around;
-  align-items: center;
+.slider-main {
+  padding: 26px 0px 60px 0;
+}
+.slider-slide {
+  width: 100px;
+}
+.slider .swiper-slide-active {
+  width: 100px;
 }/*# sourceMappingURL=style.css.map */

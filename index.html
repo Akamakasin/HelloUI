@@ -4,8 +4,8 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css"/>
     <link rel="stylesheet" href="/css/style.css">
-    <!-- <link rel="stylesheet" href="/css/normalize.css"> -->
     <title>Document</title>
 </head>
 <body>
@@ -75,33 +75,43 @@
             <p class="slider-text">
                 More than 1.8 million people across 50,000 companies choose Spellon
             </p>
-            <div class="wrapper slider">
-                <div class="slider-wrap swiper-wrapper">
-                    <ul class="slider-list">
-                        <li class="slider-item">
-                            <img src="/img/slider/slider-jll.svg" alt="">
-                        </li>
-                        <li class="slider-item">
-                            <img src="/img/slider/slider-netflix.svg" alt="">
-                        </li>
-                        <li class="slider-item">
-                            <img src="/img/slider/slider-hubspot.svg" alt="">
-                        </li>
-                        <li class="slider-item">
-                            <img src="/img/slider/slider-atlassian.svg" alt="">
-                        </li>
-                        <li class="slider-item">
-                            <img src="/img/slider/slider-juniper.svg" alt="">
-                        </li>
-                        <li class="slider-item">
-                            <img src="/img/slider/slider-lacoste.svg" alt="">
-                        </li>
-                    </ul>
-
+            <div class="swiper slider-main">
+                <div class="swiper-wrapper slider-wrap">
+                    <div class="swiper-slide slider-slide">
+                        <div class="slider-img">
+                            <img src="/img/slider/jll-black 1.jpg" alt="jll">
+                        </div>
+                    </div>
+                    <div class="swiper-slide slider-slide">
+                        <div class="slider-img">
+                            <img src="/img/slider/netflix-black 1.jpg" alt="netflix">
+                        </div>
+                    </div>
+                    <div class="swiper-slide slider-slide">
+                        <img src="/img/slider/slider-hubspot.svg" alt="hubspot">
+                    </div>
+                        <div class="swiper-slide slider-slide">
+                        <img src="/img/slider/slider-atlassian.svg" alt="atlassian">
+                    </div>
+                    <div class="swiper-slide slider-slide">
+                        <img src="/img/slider/slider-juniper.svg" alt="juniper">
+                    </div>
+                    <div class="swiper-slide slider-slide">
+                        <img src="/img/slider/slider-lacoste.svg" alt="lacoste">
+                    </div>
+                    <div class="swiper-slide slider-slide">
+                        <img src="/img/slider/slider-jll.svg" alt="jll">
+                    </div>
+                </div>
+                <div class="slider-navigation">
+                    <div class="swiper-button-prev"></div>
+                    <div class="swiper-pagination"></div>
+                    <div class="swiper-button-next"></div>
                 </div>
             </div>
         </div>
     </section>
-
+    <script src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js"></script>
+    <script src="/js/script.js"></script>
 </body>
 </html>
