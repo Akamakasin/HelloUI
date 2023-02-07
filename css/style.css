@@ -191,4 +191,22 @@
   position: relative;
   top: 600px;
   left: -50px;
+}
+
+.slider {
+  padding-top: 50px;
+}
+.slider-text {
+  margin-bottom: 25px;
+  text-align: center;
+  font-family: "Inter", sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 19px;
+  color: #5B5E6D;
+}
+.slider-list {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
 }/*# sourceMappingURL=style.css.map */
