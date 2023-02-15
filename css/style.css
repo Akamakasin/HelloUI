@@ -259,4 +259,8 @@
 .slider .slider-prev::after,
 .slider .slider-next::after {
   display: none;
+}
+
+.about {
+  padding: 100px 0px 150px 0;
 }/*# sourceMappingURL=style.css.map */
