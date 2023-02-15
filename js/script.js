@@ -1,12 +1,12 @@
-new Swiper(".slider-main", {
-    sliderPerView: 6,  
-    navigation: {
-        nextEl: ".swiper-button-next",
-        prevEl: ".swiper-button-prev"
+const swiper = new Swiper('.swiper', {
+    pagination: {
+      el: '.swiper-pagination',
     },
-
-    // pagination: {
-    //     el: '.swiper-pagination',
-    //   },
-
-});
+    navigation: {
+      nextEl: '.swiper-button-next',
+      prevEl: '.swiper-button-prev',
+    },
+    slidesPerView: 6,
+    loop: true,
+    slidesPerGroup: 3,
+  });

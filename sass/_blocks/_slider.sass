@@ -1,5 +1,6 @@
 .slider
     padding-top: 50px
+    position: relative
     &-text
         margin-bottom: 25px
         text-align: center
@@ -7,11 +8,44 @@
         font-size: 16px
         line-height: 19px
         color: $dimBlack-text
-    &-main
-        padding: 26px 0px 60px 0
-    &-wrap
-        // display: flex
-    &-slide
-        width: 100px
-    .swiper-slide-active
-        width: 100px
+    &-box
+        border-bottom: 1px solid rgb(0, 0, 0, 0.1)
+    &-navigation
+        display: flex
+        justify-content: center
+        align-items: center
+        height: 40px
+        padding: 65px 0px 100px 0
+    .swiper-pagination
+        position: static
+        width: 114px
+        margin: 0px 25px
+    .swiper-pagination-bullet
+        width: 30px
+        height: 3px
+        border-radius: 1px
+        background: $dimBlack-text
+        &-active
+            background-color: $black-text
+    .slider-next,
+    .slider-prev
+        position: static
+        margin: 0
+        width: 40px
+        height: 40px
+        background-color: $white-text
+        background-position: center
+        background-repeat: no-repeat
+        border: 1px solid $dimBlack-text
+        border-radius: 100%
+        &:hover
+            box-shadow: -8px 4px 8px rgba(0, 0, 0, 0.16)
+        &:active
+            box-shadow: -4px 2px 4px rgba(0, 0, 0, 0.24)
+    .slider-next
+        background-image: url("/img/slider/next.svg")
+    .slider-prev
+        background-image: url("/img/slider/prev.svg")
+    .slider-prev::after,
+    .slider-next::after
+        display: none
