@@ -308,6 +308,7 @@
 
 .develop-wrap {
   display: flex;
+  justify-content: space-between;
 }
 .develop-inner {
   width: 600px;
@@ -336,6 +337,28 @@
   line-height: 22px;
   color: #000000;
 }
-.develop-img-bg {
+.develop_img-group {
   position: relative;
+}
+.develop-img {
+  position: absolute;
+  top: 0;
+  right: 0;
+  z-index: 1;
+}
+.develop-img-bg {
+  position: absolute;
+}
+.develop-circle {
+  position: absolute;
+  top: 35px;
+  right: -48px;
+}
+.develop-dot {
+  position: absolute;
+  top: 372px;
+  right: 356px;
+}
+.develop-ellipse {
+  position: absolute;
 }/*# sourceMappingURL=style.css.map */
